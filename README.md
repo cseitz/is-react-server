@@ -43,6 +43,8 @@ export function SomeClientComponent() {
 
 If you have a component and want to use it in both server and client components, you can trick Next.js into treating it as such, while also being able to wrap it in an async data fetcher component.
 
+[Source Code](https://github.com/cseitz/is-react-server/tree/main/examples/next-13)
+
 1. Create the client file
 ```tsx
 'use client';
