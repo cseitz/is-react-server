@@ -1,0 +1,22 @@
+{
+  "name": "is-react-server",
+  "version": "0.0.5",
+  "description": "",
+  "main": "src/client.js",
+  "types": "src/types.d.ts",
+  "keywords": [],
+  "author": "Chris Seitz",
+  "license": "ISC",
+  "files": [
+    "src/types.d.ts",
+    "src/client.js",
+    "src/server.js"
+  ],
+  "exports": {
+    ".": {
+      "types": "./src/types.d.ts",
+      "react-server": "./src/server.js",
+      "default": "./src/client.js"
+    }
+  }
+}
